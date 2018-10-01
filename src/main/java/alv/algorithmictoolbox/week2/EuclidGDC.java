@@ -5,7 +5,7 @@ package alv.algorithmictoolbox.week2;
 
 import java.math.BigInteger;
 
-public class Eu {
+public class EuclidGDC {
 
     public static int euclidGCD(int a, int b) {
         int divisor = a >= b ? a : b;

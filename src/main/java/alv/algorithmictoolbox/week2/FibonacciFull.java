@@ -5,12 +5,9 @@ package alv.algorithmictoolbox.week2;
 
 import java.util.Arrays;
 
-public class Fibonacci {
+public class FibonacciFull {
 
-    public static long[] naiveFibonacci(int size) {
-        if (size <= 1) {
-            return n;
-        }
+    public static long[] fibonacci(int size) {
         long[] fibonacci = new long[size];
         fibonacci[0] = 0;
         fibonacci[1] = 1;
@@ -32,20 +29,20 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         int n = 10;
-        System.out.println("The " + n + " Fibonacci number is " + naiveFibonacciRecursive(n));
+        System.out.println("The " + n + " FibonacciFull number is " + naiveFibonacciRecursive(n));
         n = 3;
-        System.out.println("The " + n + " Fibonacci number is " + naiveFibonacciRecursive(n));
+        System.out.println("The " + n + " FibonacciFull number is " + naiveFibonacciRecursive(n));
         n = 20;
-        System.out.println("The " + n + " Fibonacci number is " + naiveFibonacciRecursive(n));
+        System.out.println("The " + n + " FibonacciFull number is " + naiveFibonacciRecursive(n));
 
         System.out.println("Sequences");
         n = 20;
-        System.out.println("With " + n + ":" + Arrays.toString(naiveFibonacci(n)));
+        System.out.println("With " + n + ":" + Arrays.toString(fibonacci(n)));
         n = 30;
-        System.out.println("With " + n + ":" + Arrays.toString(naiveFibonacci(n)));
+        System.out.println("With " + n + ":" + Arrays.toString(fibonacci(n)));
         n = 50;
-        System.out.println("With " + n + ":" + Arrays.toString(naiveFibonacci(n)));
+        System.out.println("With " + n + ":" + Arrays.toString(fibonacci(n)));
         n = 100;
-        System.out.println("With " + n + ":" + Arrays.toString(naiveFibonacci(n)));
+        System.out.println("With " + n + ":" + Arrays.toString(fibonacci(n)));
     }
 }

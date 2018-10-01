@@ -5,7 +5,7 @@ package alv.algorithmictoolbox.week2;
 
 import java.util.Scanner;
 
-public class GCD {
+public class GreatCommonDivisor {
 
     public static int euclidGcd(int x, int y) {
         int divisor = x >= y ? x : y;
