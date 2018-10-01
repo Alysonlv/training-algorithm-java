@@ -1,4 +1,4 @@
-package alv.others.algorithms;
+package alv;
 /*
  * Created by alysonlv - 22/09/2018
  */
@@ -6,7 +6,7 @@ package alv.others.algorithms;
 import java.util.Arrays;
 import java.util.Random;
 
-public class CommonData {
+public class Commons {
 
 
     public static int[] getArrayOfInt(int size, int maxValue) {
@@ -20,6 +20,6 @@ public class CommonData {
     }
 
     public static void main(String[] args) {
-        System.out.println("Random Array of Int = " + Arrays.toString(getArrayOfInt(1000, Integer.MAX_VALUE)));
+        System.out.println("Random Array of Int = " + Arrays.toString(getArrayOfInt(1000, 100)));
     }
 }
