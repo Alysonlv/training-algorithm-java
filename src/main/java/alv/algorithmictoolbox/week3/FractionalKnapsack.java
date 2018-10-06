@@ -5,98 +5,82 @@ package alv.algorithmictoolbox.week3;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Scanner;
 
 public class FractionalKnapsack {
+    private static double getOptimalValue(int capacity, int[] values, int[] weights) {
+        double value = 0;
+        int length = values.length;
 
-    private static double getMaxValue(ItemValue[] items, int capacity) {
-        double maxWeight = 0d;
+        if(values.length == 0 || weights.length == 0 || capacity <= 0) {
+            return 0;
+        }
 
-        for (ItemValue item : items) {
 
-            int currentWeight = (int) item.weight;
-            int currentValue = (int) item.value;
+        Double [][] valsAndWeights = new Double[length][3];  // 2D array for all vals.
 
-            if (capacity - currentWeight >= 0) {//this weight can be picked while
-                capacity = capacity - currentWeight;
-                maxWeight += currentValue;
+        double [] weightedVals = new double[length];
 
-            } else {//item cant be picked whole
-                double fraction = ((double) capacity / (double) currentWeight);
-                maxWeight += (currentValue * fraction);
-                capacity = (int) (capacity - (currentWeight * fraction));
-                break;
+        for(int i=0; i<values.length; i++) {
+            weightedVals[i] = values[i]/(weights[i]*1.0);
+            valsAndWeights[i][0] = weightedVals[i];
+            valsAndWeights[i][1] = (double)values[i];
+            valsAndWeights[i][2] = (double) weights[i];
+        }
+
+        // Sorting array by Col 0
+        sort2DArray(valsAndWeights, 0);
+
+        // Picking from sorted weights
+        int i = length - 1;
+        double weiVal, sumWeights = 0;
+        while(sumWeights < capacity && i >= 0) {
+            // Pick most valued item and add as much to get to req capacity.
+            weiVal = valsAndWeights[i][0] * valsAndWeights[i][2];
+            value = weiVal + value;
+            sumWeights = sumWeights + valsAndWeights[i][2];
+            while(sumWeights > capacity) {
+                value = value - (valsAndWeights[i][0]);
+                sumWeights--;
             }
 
+            if(sumWeights == capacity)
+                break;
+            i--;
         }
-
-        return maxWeight;
-
+        return value;
+    }
+    private static void sort2DArray(Double [][] arr, int col) {
+        // Sort 2D array by value weightedVals.
+        final Comparator<Double[]> arrayComparator = new Comparator<Double[]>() {
+            @Override
+            public int compare(final Double[] entry1, final Double[] entry2) {
+                return entry1[col].compareTo(entry2[col]);
+            }
+        };
+        Arrays.sort(arr, arrayComparator);
     }
 
-    // item value class
-    private static class ItemValue {
-        Double cost;
-        double weight, value, ind;
-
-        // item value function
-        public ItemValue(int weight, int value, int ind){
-            this.weight = weight;
-            this.value = value;
-            this.ind = ind;
-            cost = new Double(value/ weight);
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int capacity = scanner.nextInt();
+        int[] values = new int[n];
+        int[] weights = new int[n];
+        for (int i = 0; i < n; i++) {
+            values[i] = scanner.nextInt();
+            weights[i] = scanner.nextInt();
         }
-
+        System.out.println(getOptimalValue(capacity, values, weights));
     }
 
-    public static void main(String[] args) {
-        int[] weights = {4, 3, 2};
-        int[] values = {20, 18, 14};
-        int capacity = 7;
-
-        ItemValue[] iVal = new ItemValue[weights.length];
-
-        for(int i = 0; i < weights.length; i++){
-            iVal[i] = new ItemValue(weights[i], values[i], i);
+    private static void display2DArray(Object [][] arr) {
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
         }
 
-        //sorting items by value;
-        Comparator<ItemValue> sorter = (item1, item2) -> item2.cost.compareTo(item1.cost);
-        Arrays.sort(iVal, sorter);
-
-        double maxValue = getMaxValue(iVal, capacity);
-
-        System.out.println("Maximum value we can obtain = " + maxValue);
-
-        weights = new int[] {10, 40, 20, 30};
-        values = new int[] {60, 40, 100, 120};
-        capacity = 50;
-
-        iVal = new ItemValue[weights.length];
-
-        for(int i = 0; i < weights.length; i++){
-            iVal[i] = new ItemValue(weights[i], values[i], i);
-        }
-
-        //sorting items by value;
-        Arrays.sort(iVal, sorter);
-
-        maxValue = getMaxValue(iVal, capacity);
-        System.out.println("Maximum value we can obtain = " + maxValue);
-
-        weights = new int[] {20, 5, 4};
-        values = new int[] {20, 10, 20};
-        capacity = 10;
-
-        iVal = new ItemValue[weights.length];
-
-        for(int i = 0; i < weights.length; i++){
-            iVal[i] = new ItemValue(weights[i], values[i], i);
-        }
-
-        //sorting items by value;
-        Arrays.sort(iVal, sorter);
-
-        maxValue = getMaxValue(iVal, capacity);
-        System.out.println("Maximum value we can obtain = " + maxValue);
     }
 }
