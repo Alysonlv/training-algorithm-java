@@ -22,7 +22,7 @@ public class FractionalKnapsack {
         double [] weightedVals = new double[length];
 
         for(int i=0; i<values.length; i++) {
-            weightedVals[i] = values[i]/(weights[i]*1.0);
+            weightedVals[i] = values[i]/(weights[i] * 1.0);
             valsAndWeights[i][0] = weightedVals[i];
             valsAndWeights[i][1] = (double)values[i];
             valsAndWeights[i][2] = (double) weights[i];
@@ -50,6 +50,7 @@ public class FractionalKnapsack {
         }
         return value;
     }
+
     private static void sort2DArray(Double [][] arr, int col) {
         // Sort 2D array by value weightedVals.
         final Comparator<Double[]> arrayComparator = new Comparator<Double[]>() {
