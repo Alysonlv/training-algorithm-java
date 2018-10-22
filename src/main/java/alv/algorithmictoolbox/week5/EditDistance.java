@@ -22,11 +22,11 @@ public class EditDistance {
     }
 
     private static int costOfSubstitution(char a, char b) {
-        return a == b ? 0 : 1; //wenn gleich 0 ansonsten 1
+        return a == b ? 0 : 1;
     }
 
     private static int min(int... numbers) {
-        return Arrays.stream(numbers).min().orElse(Integer.MAX_VALUE); //Wenn es keine kleinste Zahl gibt (Array leer?) gib Max_Value zurück
+        return Arrays.stream(numbers).min().orElse(Integer.MAX_VALUE);
     }
 
 
