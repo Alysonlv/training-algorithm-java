@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27fae134-f9fe-4b9c-bb69-80895ead7ff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/PlacingParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/week6_dynamic_programming2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/EditDistance.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,25 +70,25 @@
         <counts>
           <entry key="dummy" value="42" />
           <entry key="gitignore" value="6" />
-          <entry key="java" value="9356" />
+          <entry key="java" value="9662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9356" />
+          <entry key="JAVA" value="9662" />
           <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="69" />
+          <entry key="java" value="78" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="69" />
+          <entry key="JAVA" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -98,40 +100,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/PrimitiveCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/Knapsack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="e#199#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/ChangeDP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-634">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#1886#1887#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/EditDistance.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/PlacingParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="443">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,6 +138,7 @@
       <find>digits</find>
       <find>alphanum</find>
       <find>list</find>
+      <find>knapSack</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,6 +191,9 @@
         <option value="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/PrimitiveCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/ChangeDP.java" />
         <option value="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/EditDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/ssss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/Knapsack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/PlacingParentheses.java" />
       </list>
     </option>
   </component>
@@ -279,7 +270,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alv" type="462c0819:PsiDirectoryNode" />
               <item name="algorithmictoolbox" type="462c0819:PsiDirectoryNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
+              <item name="week6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trainingalgorithmjava" type="b2602c69:ProjectViewProjectNode" />
@@ -333,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540246712299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540638922925" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -349,11 +340,11 @@
       <recent name="alv" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6" />
       <recent name="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5" />
       <recent name="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4" />
       <recent name="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week2" />
       <recent name="$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week3" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sorting">
+  <component name="RunManager" selected="Application.PlacingParentheses">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week4.BinarySearch" />
       <module name="training-algorithm-java" />
@@ -382,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DifferentSummands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week3.DifferentSummands" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week6.Knapsack" />
       <module name="training-algorithm-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alv.algorithmictoolbox.week3.*" />
+          <option name="PATTERN" value="alv.algorithmictoolbox.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,25 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DotProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week3.DotProduct" />
+    <configuration name="PlacingParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week6.PlacingParentheses" />
       <module name="training-algorithm-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alv.algorithmictoolbox.week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week3.LargestNumber" />
-      <module name="training-algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alv.algorithmictoolbox.week3.*" />
+          <option name="PATTERN" value="alv.algorithmictoolbox.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,20 +412,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ssss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alv.algorithmictoolbox.week6.ssss" />
+      <module name="training-algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alv.algorithmictoolbox.week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DotProduct" />
-      <item itemvalue="Application.DifferentSummands" />
-      <item itemvalue="Application.LargestNumber" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.Sorting" />
+      <item itemvalue="Application.Knapsack" />
+      <item itemvalue="Application.ssss" />
+      <item itemvalue="Application.PlacingParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlacingParentheses" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.ssss" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LargestNumber" />
-        <item itemvalue="Application.DifferentSummands" />
-        <item itemvalue="Application.DotProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -464,12 +455,12 @@
       <workItem from="1537709812936" duration="3723000" />
       <workItem from="1537896353411" duration="12481000" />
       <workItem from="1538216683988" duration="16923000" />
-      <workItem from="1540229210065" duration="5046000" />
+      <workItem from="1540229210065" duration="8292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44644000" />
+    <option name="totallyTimeSpent" value="47890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -484,13 +475,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31428573" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32959184" />
@@ -610,27 +601,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/Outros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/others/algorithms/sorting/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alv/others/algorithms/sorting/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -917,19 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/MajorityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#579#597#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/OneDrive/Estudos/Algorithms/Coursera/Algorithmic Toolbox/codigos/week4_divide_and_conquer/3_improving_quicksort/Sorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -939,20 +896,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/Sorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" lean-forward="true" selection-end-line="80" selection-end-column="1" />
+        <state relative-caret-position="265">
+          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/PointsAndSegments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#579#597#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2069#2070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/Inversions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="-710">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -963,29 +940,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/PointsAndSegments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week4/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="-305">
+          <caret line="22" column="20" lean-forward="true" selection-end-line="80" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/PrimitiveCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/EditDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#199#208#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,15 +974,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/EditDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week5/PrimitiveCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="780">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#199#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/ssss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/Knapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alv/algorithmictoolbox/week6/PlacingParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
           </folding>
         </state>
       </provider>
